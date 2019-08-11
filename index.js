@@ -1,8 +1,7 @@
-/* eslint-env node */
 'use strict';
 
 module.exports = {
-  name: 'ember-qunit-source-map',
+  name: require('./package').name,
 
   options: {
     nodeAssets: {
